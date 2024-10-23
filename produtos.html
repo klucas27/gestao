@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Gestão para Comércio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Sistema de Gestão</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="calcule.html">Calculadora</a></li>
+                    <li><a href="relatorio.html">Relatórios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+            <section id="produtos">
+                <!-- <h2 id="h2_produtos">PRODUTOS</h2> -->
+                
+                <form id="add_produtos">
+                    <h3>Adicionar novos Produtos</h3>
+                    <div id="productname_div">
+                        <label for="productname">Nome do Produto: </label>
+                        <input type="text" id="productname" name="productname" required>
+                    </div>
+                    <div id="sku_product_div">   
+                        <label for="sku_product">SKU: </label>
+                        <input type="text" id="sku_product" name="sku_product" required>
+                    </div>
+                    <div id="priceproduct_div">
+                        <label for="priceproduct">Preço de Custo: </label>
+                        <input type="text" id="priceproduct" name="priceproduct" required>
+                    </div>
+                    <div id="valorvenda_div">
+                        <label for="valorvenda">Valor de Venda: </label>
+                        <input type="text" id="valorvenda" name="valorvenda" required>
+                    </div>
+                    <div id="div_button">
+                        <button type="submit"> ADICIONAR</button>
+                    </div>
+                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 KRESLEY</p>
+        </footer>
+        <script src="script.js"></script>
+
+
+    </body>
+
+</html>

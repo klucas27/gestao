@@ -1,0 +1,103 @@
+body{
+    background-color: #0D1117;
+    color: aliceblue;
+}
+
+header{
+    text-align: center;
+    border: none;
+    background-color: darkslategrey;
+    padding: 3px 3px 3px 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-size: 23px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    font-stretch:extra-expanded;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    color: #0D1117;
+}
+
+main{
+    background-color: #191D23;
+    /* padding: %; */
+    margin: 10px;
+    box-shadow: 5px 5px 5px 15px rgba(4, 253, 37, 0.1);
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* ABA PRODUTOS */
+#h2_produtos {
+    text-align: center;
+}
+#add_produtos h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#add_produtos {
+    background-color: #2b2e34;
+    padding: 2%;
+    border-radius: 20px;
+    margin: 2px 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+}
+
+#add_produtos label {
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+#add_produtos input {
+    font-size: 25px;
+    padding: 3px;
+    margin-top: 5px;
+}
+ 
+#add_produtos div {
+    margin-bottom: 20px;
+}
+
+#div_button {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#div_button button {
+    font-size: 25px; 
+    padding: 10px 20px;
+}
+
+
